@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FinalTest</string>
+
+    <string-array name = "texts">
+        <item>Strong</item>
+        <item>Weak</item>
+    </string-array>
+</resources>

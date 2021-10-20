@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation = "vertical"
+    android:background = "@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Launcher"
+        android:textStyle = "bold"
+        android:textSize = "20sp"
+        android:textColor = "#fff"
+        android:background = "@color/grey" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter feedback details to send"
+        android:textStyle = "bold"
+        android:textSize = "25sp"
+        android:textColor = "@color/grey"
+        android:background = "@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to the developer:"
+        android:textStyle = "bold"
+        android:textSize = "25sp"
+        android:textColor = "@color/grey"
+        android:background = "@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle = "bold"
+        android:textSize = "25sp"
+        android:hint = "Enter Username"
+        android:textColor = "@color/black"
+        android:background= "@color/white"
+        android:id = "@+id/name"
+        android:layout_margin = "20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle = "bold"
+        android:textSize = "25sp"
+        android:hint = "Enter Email"
+        android:textColor = "@color/black"
+        android:background= "@color/white"
+        android:id = "@+id/email"
+        android:layout_margin = "20sp"
+        />
+
+    <Spinner
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/spinner"
+        android:layout_margin="20sp"
+        android:background= "@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle = "bold"
+        android:textSize = "25sp"
+        android:inputType = "text"
+        android:hint = "Enter Description"
+        android:textColor = "@color/black"
+        android:background= "@color/white"
+        android:id = "@+id/description"
+        android:layout_margin = "20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal"
+        >
+
+        <Button
+            android:layout_width = "20sp"
+            android:layout_height = "20sp"
+            android:layout_marginLeft = "20sp"
+            android:id = "@+id/select"
+            android:background="@color/white"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Would you like an email response  "
+            android:textStyle = "bold"
+            android:textSize = "20sp"
+            android:textColor = "@color/grey"
+            android:background = "@color/black"
+            android:layout_marginLeft = "20sp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:layout_marginTop = "20sp"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Send Feedback"
+
+            android:id = "@+id/register"
+            android:background="#FFC107"
+
+            />
+
+
+
+
+
+</LinearLayout>
